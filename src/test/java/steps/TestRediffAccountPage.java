@@ -20,6 +20,7 @@ public class TestRediffAccountPage {
 	@Given("User Opens chrome Browser")
 	public void open_Browser()
 	{
+System.setProperty("webdriver.chrome.driver", "C:\\Users\\sonal\\Downloads\\chromedriver\\chromedriver-win64\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
