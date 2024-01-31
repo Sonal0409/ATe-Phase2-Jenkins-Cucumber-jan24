@@ -94,7 +94,8 @@
           <version>2.22.1</version>
           <configuration>
 			  <includes>
-				 <include>**/*Runner.java  </include>
+			<!--	 <include>**/*Runner.java  </include>-->
+			<include>**/Amazon*.java  </include>
 			  </includes>
 			  
 		  </configuration>
